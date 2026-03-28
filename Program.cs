@@ -211,7 +211,7 @@ foreach (var interfaceDefinition in interfaces)
 		{
 			++iRequest;
 			WriteXmldoc("summary", 1, requestDefinition.Summary);
-			WriteXmldoc("description", 1, requestDefinition.Description);
+			WriteXmldoc("remarks", 1, requestDefinition.Description);
 
 			foreach (var arg in requestDefinition.Arguments)
 			{
